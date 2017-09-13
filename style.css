@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes pastelRainbow {
+    0% {
+      background-position: 94% 0%; }
+    50% {
+      background-position: 7% 100%; }
+    100% {
+      background-position: 94% 0%; } }
+
+body {
+    background: linear-gradient(45deg, #00B2E1, #f1658a);
+    animation: pastelRainbow 15s ease infinite; 
+    background-size: 300% 300%;
+
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
