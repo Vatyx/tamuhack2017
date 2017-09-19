@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" type="image/png" href="favicon-03.png">
+
+        <title>TAMUhack</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="logo">
-            <img src="logowhite-02.svg" width="400px" height="400px">
+        <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/gray.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
+        <div id="header">
+            <img id="logo" src="logowhite-02.svg" width="500em" height="500em">
+            <div id="dates">January 27th - 28th 2018</div>
+
+            <!-- <input name="email" class="email-sign-up-field" type="email" placeholder="Enter your email address" required> -->
+            <form action="http://tamuhack.us9.list-manage.com/subscribe/post?u=ba74e26a78411ab40af6384c5&amp;id=db5a4be665" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <button class="email-sign-up-button" type="submit">Sign up for Updates!</button>
+                <div>
+                    <input autocomplete="off" class="signup-input" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    <input class="signup-submit" type="submit"/>
+                </div>
+            </form>
+
+            <!-- <div style="margin:auto;">
+                <button id="button">Sponsor</button>
+                <button id="button">Volunteer</button>
+            </div> -->
         </div>
+
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
     </body>
 </html>
